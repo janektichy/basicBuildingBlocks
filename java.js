@@ -12,7 +12,7 @@ for (let i = 2; i < 21; i = i + 2) {
 
 let something = (a, b) => {
     return a + b;
-}
+};
 
 console.log(something(5, 2))
         
@@ -31,3 +31,12 @@ function greet(name) {
 
 greet('John');
 
+let printValues = [0, 3, 6, 7, 9];
+    for (let i = 0; i < printValues.length; i++) {
+      console.log(printValues[i]);
+};
+
+let myNumbers = [10, 20, 30, 50, 12];
+
+myNumbers.forEach(element => 
+    console.log(element));
